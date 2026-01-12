@@ -1,2 +1,100 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    
+    background-image:url('MörkEbenholts.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
 
 
+.navigationcenter{
+
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+
+
+}
+
+.navigation{
+    
+    margin: 0px;
+    margin-top: 1%;
+
+    padding-left:7%;
+    padding-right:7%;
+    padding-top:1.3%;
+    padding-bottom:1.3%;
+
+    
+    list-style: none;
+    display:inline-flex;
+    
+    background-image:url('GulnatPergament.jpg');
+
+    border-color: rgb(181, 153, 110);
+    border-width: 9px;
+    
+    border-style:solid;
+    
+
+
+
+}
+
+ul.navigation  li{
+    font-size: 300%;
+
+    text-align: center;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+
+    background: linear-gradient(45deg,rgb(86, 85, 85), rgb(175, 175, 175), gray, rgb(192, 192, 192), gray);
+
+    border-color: rgb(156, 156, 156);
+    border-width: 5px;
+    border-style: solid;
+
+    margin: 5px;
+    padding: 10px;
+    
+}
+ul.navigation  li:hover{
+    font-size: 300%;
+
+    text-align: center;
+    box-shadow: 0px 0px 50px rgb(97, 242, 218);
+
+    background: linear-gradient(45deg,rgb(86, 85, 85), rgb(175, 175, 175), gray, rgb(192, 192, 192), gray);
+
+    border-color: rgb(97, 242, 218);
+    border-width: 5px;
+    border-style: solid;
+
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+
+ul.navigation li a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+
+
+    color:rgb(225, 225, 125);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+ul.navigation li a:hover{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+    color:rgb(97, 242, 218);
+    text-shadow: 0px 0px 50px rgb(97, 242, 218);
+
+}
