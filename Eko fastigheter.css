@@ -96,5 +96,31 @@ ul.navigation li a:hover{
 
     color:rgb(97, 242, 218);
     text-shadow: 0px 0px 50px rgb(97, 242, 218);
+}
 
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px;
+    gap: 20px;
+    border: 5px solid rgb(157, 111, 30);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 410px;
+    margin-right: 410px;
+}
+
+.container p {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgb(157, 111, 30);
+    grid-column: span 1;
+    grid-row: span 1;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(157, 111, 30);
+    
 }
