@@ -177,6 +177,12 @@ main section{
 
 }
 
+.wider{
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 6%;
+}
+
 main section img{
     width: 600px;
     height: auto;
@@ -236,6 +242,155 @@ main article:hover{
 
 main article h2{
     font-size: 250%;
+}
+
+main section div{
+    margin: none;
+    padding: none;
+
+    margin-top: 2%;
+    margin-left:1%;
+    margin-right:1%;
+
+    border-color:rgb(181, 153, 110);
+    border-style:solid;
+    border-width:6px;
+    
+    background-color: rgba(0, 0, 0, 0.068);
+
+    
+}
+
+main section.wider h2{
+    font-size: 40px;
+}
+
+
+main section h2{
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+
+    background: linear-gradient(45deg,rgb(86, 85, 85), rgb(175, 175, 175), gray, rgb(192, 192, 192), gray);
+
+    border-color: rgb(156, 156, 156);
+    border-width: 5px;
+    border-style: solid;
+}
+
+main section div h2{
+    padding:none;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+main section div p{
+    font-size: 36px;
+}
+
+main section div{
+    box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.735)
+}
+
+.Kontaktinfo{
+    padding:none;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.Öppettiderinfo{
+    padding:none;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%; 
+}
+
+.infoklass{
+    font-size: 150%;
+}
+
+
+main section ul{
+    text-align:center;
+    color: rgb(214, 220, 227);
+    list-style: none;
+    display:flex;
+    padding: 0px;
+    margin: none;
+    
+}
+
+main section ul li:hover{
+    color: rgb(114, 255, 232);
+    text-shadow: 0px 0px 50px rgb(97, 242, 218);
+    box-shadow: 0px 0px 10px rgb(97, 242, 218);
+
+
+}
+
+main section div:hover{
+    color: rgb(114, 255, 232);
+    text-shadow: 0px 0px 50px rgb(97, 242, 218);
+    box-shadow: 0px 0px 10px rgb(97, 242, 218);
+}
+
+main section ul li ol li{
+    margin-bottom:12%;
+}
+
+main section ul > li{
+
+    margin:10px;
+    padding-bottom: 20px;
+
+    border-color:rgb(181, 153, 110);
+    border-style:solid;
+    border-width:6px;
+
+    background-color: rgba(0, 0, 0, 0.068);
+    box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.735)
+}
+
+footer{
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(214, 220, 227);
+    
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 6%;
+    margin-bottom: 0%;
+
+    text-shadow: 0px 0px 20px rgba(97, 242, 218, 0.648);
+   
+}
+
+main section ul dl{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+main section ul dt{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+}
+
+main section ul dd{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    text-align:justify;
+}
+
+main section ul ol{
+    list-style-type:square;
+    text-align:left;
 }
 
 main article p{
