@@ -100,31 +100,42 @@ ul.navigation li a:hover{
 
 .container {
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 20px;
-    border: 5px solid rgb(157, 111, 30);
-    padding: 10px;
+    border: 5px solid rgb(181, 153, 110);
+    padding: 20px;
     justify-content: center;
-    align-items: center;
-    margin-top: 90px;
-    margin-left: 410px;
-    margin-right: 410px;
+    align-items: stretch;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
 }
 
-.container p {
+.container > div {
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid rgb(157, 111, 30);
     grid-column: span 1;
     grid-row: span 1;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(157, 111, 30);
+    color: rgb(117, 117, 117);
+    background-image:url('GulnatPergament.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
+h1 {
+    text-align: center;
+    font-size: 400%;
+    color:  rgb(117, 117, 117);
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 main{
     margin: 0px;
