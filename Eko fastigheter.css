@@ -128,7 +128,7 @@ ul.navigation li a:hover{
 .title {
     text-align: center;
     font-size: 400%;
-    color:  rgb(117, 117, 117);
+
     margin-top: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -469,4 +469,172 @@ main article a:hover{
 
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    width:220px;
+    height:60px;
+
+    text-align: center;
+    font-size: 32px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(225, 225, 125);
+
+
+
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+
+    background: linear-gradient(45deg,rgb(86, 85, 85), rgb(175, 175, 175), gray, rgb(192, 192, 192), gray);
+
+    border-color: rgb(156, 156, 156);
+    border-width: 5px;
+    border-style: solid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button:hover{
+    cursor:pointer;
+    color:rgb(97, 242, 218);
+    text-shadow: 0px 0px 1px rgb(97, 242, 218);
+    box-shadow: 0px 0px 40px rgb(97, 242, 218);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+    background-image:url('GulnatPergament.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-color: rgb(160, 133, 91);
+    border-width: 10px;
+    border-style: solid;
+
+    margin: 15% auto; 
+    padding: 20px;
+    width: 80%;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.close {
+    color: #000000;
+    float: right;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(114, 255, 232);
+    text-shadow: 0px 0px 40px rgb(97, 242, 218);
+    
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content p{
+    font-size: 28px;
+    color: rgb(115, 146, 178);
+    margin-top: 40px;
+    text-shadow: 1.5px 2px 0.5px rgb(39, 51, 62);
+}
+
+.modal-content h2{
+    font-size: 42px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(225, 225, 125);
+    margin-bottom: 32px;
+    margin-top: 60px;
+
+    background: linear-gradient(45deg,rgb(86, 85, 85), rgb(175, 175, 175), gray, rgb(192, 192, 192), gray);
+
+    border-color: rgb(156, 156, 156);
+    border-width: 5px;
+    border-style: solid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content label{
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(115, 146, 178);
+    text-shadow: 1.5px 2px 0.5px rgb(39, 51, 62);
+}
+
+.modal-content input[type=checkbox]{
+    width:28px;
+    height:28px;
+    accent-color:rgb(114, 255, 232);
+}
+
+.modal-content input[type=text]{
+    width: 5%;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    resize: none;
+    transition: width 0.6s ease-in-out;
+
+}
+
+.modal-content input[type=text]:focus{
+    width: 100%;
+    resize: none;
+}
+
+.modal-content form{
+    text-align: center;
+}
+
+.modal-content form input{
+    margin-top: 64px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 32px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(225, 225, 125);
+
+    padding:10px;
+
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+
+    background: linear-gradient(45deg,rgb(86, 85, 85), rgb(175, 175, 175), gray, rgb(192, 192, 192), gray);
+
+    border-color: rgb(156, 156, 156);
+    border-width: 5px;
+    border-style: solid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
