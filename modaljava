@@ -9,8 +9,16 @@ var span = document.getElementsByClassName("close")[0];
 
 
 btn.onclick = function() {
-  modal.style.display = "block";
+
+
+  window.setTimeout(function() {
+    modal.style.display = "block";
+    modal.style.animation = "fadeIn 0.5s ease-in-out";
+  }, 200);
+
+
 }
+
 
 
 span.onclick = function() {

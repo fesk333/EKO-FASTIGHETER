@@ -522,10 +522,9 @@ button:hover{
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
+    
 }
-
 
 .modal-content {
     background-image:url('GulnatPergament.jpg');
@@ -617,6 +616,14 @@ button:hover{
 
 .modal-content form{
     text-align: center;
+}
+
+.modal-content form input[type=button]:hover{
+    cursor: pointer;
+    color:rgb(97, 242, 218);
+    text-shadow: 0px 0px 30px rgb(97, 242, 218);
+    box-shadow: 0px 0px 40px rgb(97, 242, 218);
+
 }
 
 .modal-content form input{
